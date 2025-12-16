@@ -1,0 +1,27 @@
+-- UPDATE 
+
+-- UPDATE COMMAND IS USED FOR UPDATE A DATA IN THE TABLE
+
+-- SYNTAX
+
+-- UPDATE TABLE_NAME SET COL_NAME = "VALUE" WHERE COL_NAME = "LOCATION" AS
+
+SELECT * FROM students;
+
+UPDATE students SET std_name = "ramesh" WHERE std_id = 101;
+
+SELECT * FROM students;
+
+UPDATE students SET std_name = "ramesh" WHERE std_id = 101;
+
+-- DELETE
+
+-- SYNTAX
+
+-- DELETE FROM TABLE_NAME WHERE (LOCATION)
+
+DELETE FROM students WHERE std_id = 100;
+
+-- DELETE ENTIRE ROWS IN THE TABLE
+
+DELETE FROM students;
